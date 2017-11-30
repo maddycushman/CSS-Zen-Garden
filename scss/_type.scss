@@ -3,7 +3,9 @@ body {
   font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
   color: $text;
   margin: 0;
-  padding: 0;
+  padding-left: 90px;
+  padding-right: 90px;
+
 }
 
 h1 {
@@ -24,6 +26,6 @@ a {
   color: $highlight-bg;
   transition: color $hover-timing ease;
   &:hover {
-    color: darken($highlight-bg, 6%);
+    color: lighten($highlight-bg, 15%);
   }
 }
