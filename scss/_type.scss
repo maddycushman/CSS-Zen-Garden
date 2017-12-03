@@ -1,20 +1,30 @@
+
 body {
   font-size: 16px;
   font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
   color: $text;
   margin: 0;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
 
 }
 
 h1 {
-font-size: 100px;
+  font-size: 150px;
+  margin-bottom: -20px;
+
+
 }
 
 h2 {
+  font-size: 50px;
+  text-align: center;
 
 }
+
+h3 { font-size: 30px;
+
+      }
 
 p {
   color: $lgray;
@@ -29,3 +39,5 @@ a {
     color: lighten($highlight-bg, 15%);
   }
 }
+
+.design-archives { text-align: center; }
