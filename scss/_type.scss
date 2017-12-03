@@ -4,16 +4,14 @@ body {
   font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
   color: $text;
   margin: 0;
-  padding-left: 50px;
-  padding-right: 50px;
-
+  padding-left: 70px;
+  padding-right: 70px;
 }
+
 
 h1 {
   font-size: 150px;
   margin-bottom: -20px;
-
-
 }
 
 h2 {
@@ -37,7 +35,5 @@ a {
   transition: color $hover-timing ease;
   &:hover {
     color: lighten($highlight-bg, 15%);
-  }
-}
 
-#navigation { text-align: center;}
+  }
